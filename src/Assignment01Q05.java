@@ -14,10 +14,14 @@ public class Assignment01Q05 {
 		for(int i=0;i < N; i++)
 			System.out.println(Arrays.toString(matrix[i]));
 		System.out.println("");
-		int[][] rotatedMatrix; // the rotated matrix
+		int[][] rotatedMatrix = new int[N][N]; // the rotated matrix
 		
 		// *** your code goes here below ***
-
+		for(int i=0;i < N; i++) {
+			for(int j=0;j < N; j++) {
+				rotatedMatrix[i][j] = matrix[N-j-1][i];
+			}			
+		}
 		
 		
 		
