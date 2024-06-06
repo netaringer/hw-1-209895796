@@ -20,7 +20,7 @@ public class Assignment01Q05 {
 		for(int i=0;i < N; i++) {
 			for(int j=0;j < N; j++) {
 				rotatedMatrix[i][j] = matrix[N-j-1][i];
-			}			
+			}
 		}
 		
 		
