@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class Assignment01Q03 {
 
 	public static void main(String[] args) {
@@ -14,7 +13,6 @@ public class Assignment01Q03 {
 		numOfOdd = Assignment01Q03.odd_num(fib_arr);
 		System.out.println("The number of odd numbers is: "+numOfOdd);
 	}
-
 	public static int[] fibonacci(int n) {
 		int[] fib_arr = new int[n];
 		fib_arr[0] = 1;
